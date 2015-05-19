@@ -1,0 +1,33 @@
+{
+  "name": "koa-assets-minify-example",
+  "version": "0.0.1",
+  "description": "Example for koa-assets-minify usage.",
+  "homepage": "https://github.com/seandou/koa-assets-minify-example",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:seandou/koa-assets-minify-example.git"
+  },
+  "keywords": [
+    "koa",
+    "assets",
+    "minify",
+    "example"
+  ],
+  "author": "Sean Dou <douguohui@gmail.com>",
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "koa": "~0.19.1",
+    "koa-etag": "^2.0.0",
+    "koa-conditional-get": "^1.0.2",
+    "koa-ejs": "^2.0.1",
+    "koa-assets-minify": "^0.1.2"
+  },
+  "engines": {
+    "node": ">=0.11.2"
+  }
+}
